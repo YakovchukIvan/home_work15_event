@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(87, 86, 86);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(243, 243, 243);
+}
+
+h1 {
+    margin: 10px 0 40px 0;
+    padding: 0;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    border: 2px solid rgb(37, 133, 197);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 8px 16px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* border: 1px solid red; */
+}
+
+.block {
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 600px;
+    padding: 20px 10px;
+}
+
+.outInput {
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 250px;
+    height: 35px;
+    padding: 4px 16px;
+    overflow: hidden;
+}
+
+.task4 {
+    display: none;
+}
+
+.video, .videoText {
+    display: none;
+}
+
+.videoText {
+    color: rgb(91, 192, 192);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    background-color: rgb(38, 125, 224);
+    text-transform: uppercase;
+    color: #ebe2e2;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn:active {
+    transform: scale(0.98);
+    opacity: 0.8;
+}
+
+.block5 {
+    margin-bottom: 50px;
+}
